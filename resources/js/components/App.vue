@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- アプリケーションのコンテンツ -->
     <router-view></router-view>
   </div>
 </template>
@@ -12,5 +11,5 @@ export default {
 </script>
 
 <style>
-/* スタイル */
+
 </style>
