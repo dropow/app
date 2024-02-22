@@ -24,7 +24,7 @@ export default {
   name: 'DetailsPage',
   data() {
     return {
-      details: null // 初期状態はnull
+      details: null 
     };
   },
   mounted() {

@@ -36,7 +36,7 @@ export default {
       results: [],
       currentPage: 1,
       pageSize: 5,
-      filterType: '', // フィルタタイプ
+      filterType: '', 
       sortKey: 'name', // ソートキー
     };
   },

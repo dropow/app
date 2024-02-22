@@ -97,7 +97,7 @@ export default {
         });
         // 検索結果があるかチェック
     if (response.data.results.shop && response.data.results.shop.length > 0) {
-      // 検索結果をセッションストレージに保存
+      // 検索結果をセッションストレージ保存
       sessionStorage.setItem('searchResults', JSON.stringify(response.data.results.shop));
       // ResultsPage にルーティング
       this.$router.push({ name: 'ResultsPage' });

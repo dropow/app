@@ -16,7 +16,7 @@ class ApiController extends Controller
         $range = $request->range;
         $genre = $request->genre;
         $budget = $request->budget;
-        $count = $request->count ? $request->count : 100; // 取得するデータの件数
+        $count = $request->count ? $request->count : 100;
 
         $response = Http::get('https://webservice.recruit.co.jp/hotpepper/gourmet/v1/', [
             'key' => $apiKey,
