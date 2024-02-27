@@ -18,12 +18,19 @@ https://github.com/dropow/feltask
 
 ## 開発環境
 ### 開発環境
-vscode
-
+- Visual Studio Code 1.86.0
+- Node.js 21.5.0
 ### 開発言語
-Laravel Framework 10.44.0
-Vue.js　3.4.19
+- Laravel Framework 10.44.0
+- Vue.js　3.4.19
 
+### ソース管理
+- GitHub
+
+### 動作対象 OS
+- Windows
+- iOS
+- 
 ## 開発期間
 5日間
 
